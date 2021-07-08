@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  get "/", to: "homepage#home", as: "root"
-  get "/resume", to: "resume#resume"
+  root "homepage#home"
+  get "/", to: "homepage#home"
+  get "/resume", to: "resumetab#resume"
 end
