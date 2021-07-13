@@ -97,6 +97,25 @@ a{
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 /* PROJECTS CSS*/
+/* Shared */
+/* Carousel */
+#bb-carousel{
+  margin-right: auto;
+  margin-left: auto;
+  height: 600px !important;
+  width: 1200px !important;
+}
+#ff-carousel{
+  height: 600px !important;
+  width: 500px !important;
+}
+/* Link hover decoration change */
+#links:hover{
+  display: inline-block;;
+  text-decoration: underline;
+  padding: 0px;
+}
+
 /* Bowerbird Simulator */
 .bb-title{
   text-align: center;
@@ -111,22 +130,23 @@ a{
   width: 500px; 
   text-align: center;
 }
-#links:hover{
-  display: inline-block;;
-  text-decoration: underline;
-  padding: 0px;
+
+/* Fauna Favor */
+.ff-title{
+  text-align: center;
+  padding: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 1px 1px 1px black;
 }
-/* Carousel */
-.carousel-inner{
-  margin-right: auto;
+
+.fauna-favor-about{
+  margin-top: 5px;
   margin-left: auto;
-  height: 600px !important;
-  width: 1200px !important;
-} 
-.carousel-control-next-icon{
-  height: 600px !important;
-  padding-right: 300px;
+  margin-right: auto;
+  width: 500px; 
+  text-align: center;
 }
+
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 /* CONTACT CSS */
