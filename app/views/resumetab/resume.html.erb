@@ -8,20 +8,22 @@
         <title>Resume</title>
     </head>
     <body>
-        <%# Navbar %>
-        <div class="navbar">
-            <%= link_to "Home", root_path %>
-            <%= link_to "Resume", resume_path %>
-            <div class="dropdown">
-                <button class="dropbtn">Projects</button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
+        <div class="resumeTab">
+            <%# Navbar %>
+            <div class="navbar">
+                    <%= link_to "Home", root_path %>
+                <%= link_to "Resume", resume_path %>
+                <div class="dropdown">
+                    <button class="dropbtn">Projects</button>
+                        <div class="dropdown-content">
+                            <%= link_to "Bowerbird Simulator", bowerbird_path %>
+                            <%= link_to "HerpKeeper", herpkeeper_path %>
+                            <%= link_to "Fauna Favor", faunafavor_path %>
+                        </div>
+                </div>
+                <%= link_to "Contact", contact_path %>
             </div>
-            <a href="">Contact</a>
+            <img class="resumeImage" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/cute-moose-calf-tim-grams.jpg">
+            <h1>Also available for download </h1><><a href="" download>here</a>
         </div>
-        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/cute-moose-calf-tim-grams.jpg">
-        <h1>Also available for download </h1><><a href="" download>here</a>
     </body>
