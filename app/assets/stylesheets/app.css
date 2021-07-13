@@ -1,9 +1,9 @@
 /* SHARED CSSS */
 body{
-  background-color: darkgray;
+  background-color: #5e5d5d !important;
   color: white;
   margin:0;
-    padding:0;
+  padding:0;
 }
 /* Navbar and its components */
 .navbar{
@@ -70,7 +70,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 98vh;
+    height: 97vh;
   }
 
 .jumbo-container h1{
@@ -97,8 +97,36 @@ a{
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 /* PROJECTS CSS*/
-
-
+/* Bowerbird Simulator */
+.bb-title{
+  text-align: center;
+  padding: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 1px 1px 1px black;
+}
+.bowerbird-about{
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px; 
+  text-align: center;
+}
+#links:hover{
+  display: inline-block;;
+  text-decoration: underline;
+  padding: 0px;
+}
+/* Carousel */
+.carousel-inner{
+  margin-right: auto;
+  margin-left: auto;
+  height: 600px !important;
+  width: 1200px !important;
+} 
+.carousel-control-next-icon{
+  height: 600px !important;
+  padding-right: 300px;
+}
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 /* CONTACT CSS */
