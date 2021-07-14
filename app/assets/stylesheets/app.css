@@ -1,9 +1,14 @@
 /* SHARED CSSS */
 body{
-  background-color: #5e5d5d !important;
-  color: white;
+  background-color: black !important;
+  color: white !important;
   margin:0;
   padding:0;
+}
+/* attribution link  <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a> */
+p{
+  text-shadow: 1px 1px 1px black;
+  font-size: 18px;
 }
 /* Navbar and its components */
 .navbar{
@@ -13,6 +18,7 @@ body{
     text-align: center;
     background-color:  black;
     margin: 0;
+    border-bottom: 1px solid rgb(158, 247, 165); 
 }
 
 a{
@@ -65,29 +71,46 @@ a{
 
 /* HOME CSS */
 /* Jumbotron */
+#home-body{
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero-text{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 65px;
+  color: rgb(158, 247, 165);
+  text-shadow: 3px 2px 2px black;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
 .jumbotron {
-    background-image: url(jumbotron-image.jpg);
+    background-image: url(bg-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 97vh;
+    height: 89vh;
   }
 
-.jumbo-container h1{
+/* .jumbo-container h1{
     color: white;
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
+
     font-size: 37px;
-}
+} */
 
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 /* RESUME CSS */
 
 .resumeImage{
+  padding-top: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 900px;
+  width: auto;
 }
 
 .resumeTab{
@@ -136,7 +159,6 @@ a{
   text-align: center;
   padding: 15px;
   font-family: 'Cabin Sketch', cursive;
-  text-shadow: 1px 1px 1px black;
 }
 
 .fauna-favor-about{
