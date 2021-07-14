@@ -122,22 +122,14 @@ a{
 /* PROJECTS CSS*/
 /* Shared */
 /* Carousel */
-.bb-div{
-  contain: strict;
+.project-div{
+  contain: strict !important;
   display: block;
   margin-right: auto;
   margin-left: auto;
   height: 500px !important;
   width: 1000px !important;
 
-}
-.ff-div{
-  contain: strict;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 500px !important;
-  width: 1000px !important;
 }
 /* Link hover decoration change */
 #links:hover{
