@@ -1,7 +1,7 @@
 /* SHARED CSSS */
 body{
   background-color: black !important;
-  color: white;
+  color: white !important;
   margin:0;
   padding:0;
 }
@@ -122,15 +122,22 @@ a{
 /* PROJECTS CSS*/
 /* Shared */
 /* Carousel */
-#bb-carousel{
+.bb-div{
+  contain: strict;
+  display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 600px !important;
-  width: 1200px !important;
+  height: 500px !important;
+  width: 1000px !important;
+
 }
-#ff-carousel{
-  height: 600px !important;
-  width: 500px !important;
+.ff-div{
+  contain: strict;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px !important;
+  width: 1000px !important;
 }
 /* Link hover decoration change */
 #links:hover{
@@ -147,10 +154,10 @@ a{
   text-shadow: 1px 1px 1px black;
 }
 .bowerbird-about{
-  margin-top: 5px;
+  padding-top: 5px !important;
   margin-left: auto;
   margin-right: auto;
-  width: 500px; 
+  width: 700px; 
   text-align: center;
 }
 
@@ -162,10 +169,10 @@ a{
 }
 
 .fauna-favor-about{
-  margin-top: 5px;
+  padding-top: 10px !important;
   margin-left: auto;
   margin-right: auto;
-  width: 500px; 
+  width: 700px; 
   text-align: center;
 }
 
